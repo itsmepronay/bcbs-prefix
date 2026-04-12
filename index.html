@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="BCBS Pre-Fix is a static lookup tool for finding plan, group name, home plan state, and phone numbers by BCBS prefix."
+  />
+  <title>BCBS Pre-Fix</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="eyebrow">Internal Lookup Tool</div>
+    <h1>BCBS Pre-Fix</h1>
+    <p>
+      Enter a BCBS prefix to quickly see the plan, group name, home plan state,
+      and phone numbers in one place.
+    </p>
+  </header>
+
+  <main class="container">
+    <section class="search-panel" aria-label="BCBS prefix search">
+      <div class="search-row">
+        <input
+          id="search"
+          class="search"
+          type="text"
+          placeholder="Enter BCBS prefix like ZYI or ZY"
+          maxlength="10"
+          autofocus
+        />
+        <button id="clearBtn" class="btn btn-secondary" type="button">Clear</button>
+      </div>
+
+      <div class="helper">
+        <span>Search supports exact and partial prefix matching.</span>
+        <span id="matchCount">Start typing to search the directory.</span>
+      </div>
+    </section>
+
+    <section id="summary" class="summary" aria-live="polite"></section>
+    <section id="results" class="list" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer">BCBS Pre-Fix | Static site | GitHub-ready</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
