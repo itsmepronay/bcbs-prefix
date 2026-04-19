@@ -30,6 +30,9 @@ This project is ready for GitHub Pages because it is a plain static site with no
 3. Set the source to the main branch and the root folder.
 4. Save, then open the published site URL.
 
+## 🚀 Live Demo
+👉 [Click here to try the tool](https://itsmepronay.github.io/bcbs-prefix/)
+
 ## Notes
 
 - The original single-file version is still in the repo as `bcbs_prefix_lookup_advanced.html`.
